@@ -1,0 +1,27 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LambdaController" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="AWS_ACCESS_KEY_ID" value="AKIAR7M72GKWRTVCVW2G" />
+      <env name="AWS_SECRET_ACCESS_KEY" value="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" />
+      <env name="streamName" value="streamEmails" />
+      <env name="regionName" value="us-east-1" />
+      <env name="ElasticSearch_host" value="search-midominiotest-gurn7gkn5qijqldxkntpysbrje.us-east-1.es.amazonaws.com" />
+      <env name="ElasticSearch_port" value="9200" />
+      <env name="ElasticSearch_protocol" value="https" />
+      <env name="ElasticSearch_indexName" value="suscripcion_filtro" />
+      <env name="ElasticSearch_typeIndexName" value="suscripcion" />
+      <env name="ElasticSearch_regionName" value="us-east-1" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.rodrigo.tfm.LambdaController" />
+    <module name="TFM-Lambda-suscripcion-elastic-email" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.rodrigo.tfm.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

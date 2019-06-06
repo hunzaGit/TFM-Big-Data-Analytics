@@ -1,0 +1,18 @@
+{
+  "name": "TFM-Lambda-send-emails-NodeJS",
+  "version": "1.0-SNAPSHOT",
+  "description": "Envio de email de suscripcion desde AWS lambda",
+  "main": "app.js",
+  "engines": {
+    "node": "6.11.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": [
+    "Rodrigo de Miguel González"
+  ],
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
