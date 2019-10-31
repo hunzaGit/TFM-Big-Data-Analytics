@@ -13,6 +13,6 @@
     "Rodrigo de Miguel González"
   ],
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.19.0"
   }
 }
