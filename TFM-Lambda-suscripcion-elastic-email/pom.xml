@@ -13,7 +13,7 @@
         <java.version>8</java.version>
         <main.project></main.project>
 
-        <elastic.version>6.5.4</elastic.version>
+        <elastic.version>7.11.2</elastic.version>
     </properties>
 
     <repositories>
